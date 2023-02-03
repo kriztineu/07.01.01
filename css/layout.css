@@ -1,0 +1,32 @@
+/* Overordnet */
+body {
+  margin: 1.5rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Productlist */
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+/* Product */
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+/* Category */
